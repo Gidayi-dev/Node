@@ -13,14 +13,14 @@
    
 3. **Modify `package.json`**
    - Updated `package.json` for better project organization.
-   add ```"tpe": "module",``` right after ```"main": "index.js"```
+   add ```"type": "module",``` right after ```"main": "index.js"```
    delete
    ```"type": commonjs```
 
 ## Development Tools
 1. **Install Nodemon (for auto-restart in development)**
    ```sh
-   npm install nodemon --save-dev
+   npm install -D nodemon --save-dev
    ```
 2. **Update `package.json` to run server in development mode**
    ```json
