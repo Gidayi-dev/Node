@@ -13,8 +13,9 @@
    
 3. **Modify `package.json`**
    - Updated `package.json` for better project organization.
-
-   ```"tpe": "module",```
+   add ```"tpe": "module",``` right after ```"main": "index.js"```
+   delete
+   ```"type": commonjs```
 
 ## Development Tools
 1. **Install Nodemon (for auto-restart in development)**
